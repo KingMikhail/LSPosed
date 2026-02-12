@@ -22,21 +22,21 @@
     <string name="overview">OVERVIEW</string>
     <string name="Modules">MODULES</string>
     <plurals name="modules_enabled_count">
-        <item quantity="one">%d Module Enabled</item>
-        <item quantity="other">%d Modules Enabled</item>
+        <item quantity="one">(%d) Module Enabled</item>
+        <item quantity="other">(%d) Modules Enabled</item>
     </plurals>
     <string name="Logs">LOGS</string>
     <string name="Settings">SETTINGS</string>
-    <string name="feedback_or_suggestion">FEEDBACK OR SUGGESTION</string>
-    <string name="About">ABOUT</string>
+    <string name="feedback_or_suggestion">Feedbacks And Suggestion</string>
+    <string name="About">About</string>
     <string name="report_issue">REPORT AN ISSUE</string>
     <string name="module_repo">REPOSITORY</string>
     <string name="module_repo_up_to_date">Modules Up To Date</string>
     <string name="module_repo_published_time">Published (%s)</string>
     <string name="module_repo_updated_time">Updated (%s)</string>
     <plurals name="module_repo_upgradable">
-        <item quantity="one">%d Module Upgradable</item>
-        <item quantity="other">%d Modules Upgradable</item>
+        <item quantity="one">(%d) Module Upgradable</item>
+        <item quantity="other">(%d) Modules Upgradable</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[View Source Code (%1$s)<br/>Join Our %2$s Channel]]></string>
     <string name="translators" comment="Dear Translators, Please Add Your Home Page Following The Format, There Can Be More Than One Translator, Feel Free To Append Yourself">null</string>
@@ -81,23 +81,23 @@
     <string name="parasitic_welcome_summary_no_shortcut_support">You Are Using Parasitic Manager, Which Can Open From Notification</string>
     <string name="create_shortcut">CREATE SHORTCUT</string>
     <string name="never_show">NEVER SHOW</string>
-    <string name="app_welcome">PARASITIC MANAGER RECOMMENDED</string>
+    <string name="app_welcome">Parasitic Manager Recommended</string>
     <string name="app_welcome_summary">LSPosed Now Supports System ParasitiCation To Avoid Detection, You Can Open Parasitic Manager From Notification, Its Recommended To Uninstall Current App</string>
     <!-- LogsActivity -->
     <string name="menuSaveToSd">SAVE</string>
     <string name="nav_item_logs_verbose">VERBOSE LOGS</string>
     <string name="nav_item_logs_module">MODULE LOGS</string>
-    <string name="logs_saving">SAVING LOG, PLEASE WAIT</string>
-    <string name="logs_saved">LOGS SAVED</string>
+    <string name="logs_saving">Saving Logs, Kindly Wait</string>
+    <string name="logs_saved">Logs Successfully Saved</string>
     <string name="logs_save_failed2">Failed To Save:\n%s</string>
-    <string name="menuClearLog">CLEAR LOG NOW</string>
+    <string name="menuClearLog">Clear Logs</string>
     <string name="logs_cleared">Logs Successfully Cleared</string>
-    <string name="scroll_top">SCROLL TO TOP</string>
-    <string name="loading">LOADING...</string>
-    <string name="scroll_bottom">SCROLL TO BOTTOM</string>
-    <string name="menuReload">RELOAD</string>
+    <string name="scroll_top">Scroll (Top)</string>
+    <string name="loading">Loading...</string>
+    <string name="scroll_bottom">Scroll (Bottom)</string>
+    <string name="menuReload">Reload</string>
     <string name="logs_clear_failed_2">Failed To Clear Logs</string>
-    <string name="menu_enable_word_wrap">WORD WRAP</string>
+    <string name="menu_enable_word_wrap">Word Wrap</string>
     <string name="enabled_verbose_log">Verbose Log Enabled</string>
     <string name="disabled_verbose_log">Verbose Log Disabled</string>
     <!-- ModulesActivity -->
@@ -117,7 +117,7 @@
     <string name="module_installed">Added (%1$s) To User %2$s</string>
     <string name="module_install_failed">Adding Module Failed</string>
     <string name="install_to_user">Install Module To User %s</string>
-    <string name="install_to_user_message">Want To Install (%1$s) To User (%2$s?) It's Recommended To Install Manually, Forcing Installation Via LSPosed May Cause Issues And Problems</string>
+    <string name="install_to_user_message">Want To Install (%1$s) To User (%2$s?) Its Recommended To Install Manually, Forcing Installation Via LSPosed May Cause Issues And Problems</string>
     <string name="expand">EXPAND</string>
     <string name="collapse">COLLAPSE</string>
     <!-- AppListActivity -->
