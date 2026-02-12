@@ -22,8 +22,8 @@
     <string name="overview">OVERVIEW</string>
     <string name="Modules">MODULES</string>
     <plurals name="modules_enabled_count">
-        <item quantity="one">%d MODULE ENABLES</item>
-        <item quantity="other">%d MODULES ENABLED</item>
+        <item quantity="one">%d Module Enabled</item>
+        <item quantity="other">%d Modules Enabled</item>
     </plurals>
     <string name="Logs">LOGS</string>
     <string name="Settings">SETTINGS</string>
@@ -32,14 +32,14 @@
     <string name="report_issue">REPORT AN ISSUE</string>
     <string name="module_repo">REPOSITORY</string>
     <string name="module_repo_up_to_date">ALL MODULES UP TO DATE</string>
-    <string name="module_repo_published_time">PUBLISHED AT %s</string>
-    <string name="module_repo_updated_time">UPDATED AT %s</string>
+    <string name="module_repo_published_time">Published At %s</string>
+    <string name="module_repo_updated_time">Updated At %s</string>
     <plurals name="module_repo_upgradable">
-        <item quantity="one">%d MODULE UPGRADABLE</item>
-        <item quantity="other">%d MODULES UPGRADABLE</item>
+        <item quantity="one">%d Module Upgradable</item>
+        <item quantity="other">%d Modules Upgradable</item>
     </plurals>
-    <string name="about_view_source_code"><![CDATA[VIEW SOURCE CODE AT %1$s<br/>JOIN OUR %2$s CHANNEL]]></string>
-    <string name="translators" comment="DEAR TRANSLATORS, PLEASE ADD YOUR HOME PAGE HERE FOLLOWING FORMAT, THERE CAN BE MORE THAN ONE TRANSLATOR, FEEL FREE TO APPEND YOURSELF">null</string>
+    <string name="about_view_source_code"><![CDATA[View Source Code At %1$s<br/>Join Our %2$s Channel]]></string>
+    <string name="translators" comment="Dear Translators, Please Add Your Home Page Following The Format, There Can Be More Than One Translator, Feel Free To Append Yourself">null</string>
     <string name="install">INSTALL</string>
     <string name="install_summary">TAP TO INSTALL LSPOSED</string>
     <string name="not_installed">NOT INSTALLED</string>
@@ -47,11 +47,11 @@
     <string name="activated">ACTIVATED</string>
     <string name="partial_activated">PARTIALLY ACTIVATED</string>
     <string name="selinux_policy_not_loaded_summary">SEPOLICY IS NOT LOADED PROPERLY</string>
-    <string name="selinux_policy_not_loaded"><![CDATA[SOME FEATURES WILL NOT WORK<br/>PLEASE REPORT THIS TO <a href="https://github.com/topjohnwu/Magisk/issues"><b>Magisk</b></a> DEVELOPER]]></string>
+    <string name="selinux_policy_not_loaded"><![CDATA[Some Features Will Not Work<br/>Please Report This To <a href="https://github.com/topjohnwu/Magisk/issues"><b>Magisk</b></a> Developers]]></string>
     <string name="system_inject_fail_summary">System FRAMEWORK INJECTION FAILED</string>
-    <string name="system_inject_fail"><![CDATA[THIS IS RARE AND MAY BE CAUSED BY <b>Magisk</b> OR SOME LOW-QUALITY MAGISK MODULES<br/>PLEASE TRY TO DISABLE MAGISK MODULES OTHER THAN RIRU AND LSPOSED OR SUBMIT FULL LOG TO DEVELOPERS]]></string>
+    <string name="system_inject_fail"><![CDATA[Rare And May Caused By <b>Magisk</b> Or Some Low-Quality Magisk Modules<br/>Please Try To Disable Magisk Modules Other Than Riru And LSPosed Or Submit Full Logs To Developers]]></string>
     <string name="system_prop_incorrect_summary">SYSTEM PROP INCORRECT</string>
-    <string name="system_prop_incorrect"><![CDATA[SOME NECESSARY SYSTEM PROPERTIES DELETED OR MODIFIED<br/>MODULES MAY INVALIDATE OCCASIONALLY]]></string>
+    <string name="system_prop_incorrect"><![CDATA[Some Necessary System Properties Deleted And Or Modified<br/>Modules May Invalidate Occasionally]]></string>
     <string name="need_update">NEED TO UPDATE</string>
     <string name="please_update_summary">PLEASE INSTALL THE LATEST VERSION OF LSPOSED</string>
     <string name="developer_warning_title">TIPS FOR MODULE DEVELOPER</string>
@@ -89,11 +89,11 @@
     <string name="nav_item_logs_module">MODULE LOGS</string>
     <string name="logs_saving">SAVING LOG, PLEASE WAIT</string>
     <string name="logs_saved">LOGS SAVED</string>
-    <string name="logs_save_failed2">FAILED TO SAVE:\n%s</string>
+    <string name="logs_save_failed2">Failed To Save:\n%s</string>
     <string name="menuClearLog">CLEAR LOG NOW</string>
     <string name="logs_cleared">LOG SUCCESSFULLY CLEARED</string>
     <string name="scroll_top">SCROLL TO TOP</string>
-    <string name="loading">LOADING…</string>
+    <string name="loading">LOADING...</string>
     <string name="scroll_bottom">SCROLL TO BOTTOM</string>
     <string name="menuReload">RELOAD</string>
     <string name="logs_clear_failed_2">FAILED TO CLEARED LOGS</string>
@@ -102,21 +102,21 @@
     <string name="disabled_verbose_log">VERBOSE LOGS DISABLED</string>
     <!-- ModulesActivity -->
     <string name="module_empty_description">(No Description Provided)</string>
-    <string name="warning_xposed_min_version">THIS MODULE REQUIRES A NEWER XPOSED VERSION (%d) AND THUS CANNOT BE ACTIVATED</string>
-    <string name="warning_target_version_higher">THIS MODULE IS DESIGNED FOR A NEWER XPOSED VERSION (%d) AND THUS SOME FUNCTIONALITIES MAY NOT WORK</string>
-    <string name="no_min_version_specified">THIS MODULE DOES NOT SPECIFY THE XPOSED VERSION IT NEEDS</string>
-    <string name="warning_min_version_too_low">THIS MODULE WAS CREATED FOR XPOSED VERSION %1$d, BUT DUE TO INCOMPATIBILITY CHANGES IN VERSION %2$d, IT HAS BEEN DISABLED</string>
+    <string name="warning_xposed_min_version">Module Requires Newer XPosed Version (%d), Thus Cannot Be Activated</string>
+    <string name="warning_target_version_higher">Module Designed For Newer XPosed Version (%d), Thus Functionalities May Not Work</string>
+    <string name="no_min_version_specified">MODULE DOES NOT SPECIFY THE XPOSED VERSION IT NEEDS</string>
+    <string name="warning_min_version_too_low">Module Was Created For XPosed Version %1$d, But Due To Incompatibility Changes Into Version %2$d, Has Been Disabled</string>
     <string name="warning_installed_on_external_storage">THIS MODULE CANNOT BE LOADED BECAUSE IT\'S INSTALLED ON THE SD CARD, PLEASE MOVE IT TO INTERNAL STORAGE</string>
     <string name="module_uninstall">UNINSTALL</string>
     <string name="module_settings">MODULE SETTINGS</string>
     <string name="view_in_repo">VIEW IN REPOSITORY</string>
     <string name="module_uninstall_message">DO YOU WANT TO UNINSTALL THIS MODULE?</string>
-    <string name="module_uninstalled">UNINSTALLED %1$s</string>
+    <string name="module_uninstalled">Uninstalled %1$s</string>
     <string name="module_uninstall_failed">UNINSTALL UNSUCCESSFUL</string>
     <string name="add_module_to_user">ADD MODULE TO USER</string>
-    <string name="module_installed">ADDED %1$s TO USER %2$s</string>
+    <string name="module_installed">Added %1$s To User %2$s</string>
     <string name="module_install_failed">ADDING MODULE FAILED</string>
-    <string name="install_to_user">INSTALL TO USER %s</string>
+    <string name="install_to_user">Install Module To User %s</string>
     <string name="install_to_user_message">WANT TO INSTALL %1$s TO USER %2$s? IT IS RECOMMENDED TO INSTALL MANUALLY, FORCING INSTALLATION VIA LSPOSED MAY CAUSE PROBLEMS</string>
     <string name="expand">EXPAND</string>
     <string name="collapse">COLLAPSE</string>
@@ -140,11 +140,11 @@
     <string name="menu_show_modules">MODULES</string>
     <string name="menu_show_denylist">DENYLIST</string>
     <string name="failed_to_save_scope_list">FAILED TO SAVE SCOPE LIST</string>
-    <string name="app_version">VERSION: %1$s</string>
+    <string name="app_version">Version: %1$s</string>
     <string name="menu_select">SELECT</string>
     <string name="use_recommended">RECOMMENDED</string>
     <string name="no_scope_selected_has_recommended">YOU DID NOT SELECT ANY APP, SELECT RECOMMENDED APPS?</string>
-    <string name="use_recommended_message">SWLECT RECOMMENDED APPS?</string>
+    <string name="use_recommended_message">SELECT RECOMMENDED APPS?</string>
     <string name="menu_select_all">ALL</string>
     <string name="menu_select_none">NONE</string>
     <string name="menu_auto_include">AUTO-INCLUDE</string>
@@ -162,7 +162,7 @@
     <string name="reboot_required">REBOOT IS REQUIRED FOR THIS CHANGE TO APPLY</string>
     <string name="reboot">REBOOT</string>
     <string name="menu_hide">HIDE</string>
-    <string name="deny_list">%s IS ON DENYLIST, IT MAY NOT TAKE EFFECT</string>
+    <string name="deny_list">%s On Denylist, It May Not Take Effect</string>
     <string name="deny_list_info">ON DENYLIST</string>
     <!-- ModulesActivity and AppListActivity -->
     <string name="modules_other_app">VIEW IN OTHER APP</string>
@@ -196,7 +196,7 @@
     <string name="settings_language">LANGUAGE</string>
     <string name="settings_translation_contributors">TRANSLATION CONTRIBUTORS</string>
     <string name="settings_translation">PARTICIPATE IN TRANSLATION</string>
-    <string name="settings_translation_summary">HELP US TRANSLATE %s INTO YOUR LANGUAGE</string>
+    <string name="settings_translation_summary">Help Us Translate %s Into Your Language</string>
     <string name="settings_create_shortcut_summary">CREATE A SHORTCUT THAT CAN OPEN PARASITIC MANAGER</string>
     <string name="settings_shortcut_pinned_hint">SHORTCUT PINNED</string>
     <string name="settings_unsupported_pin_shortcut_summary">THE CURRENT DEFAULT LAUNCHER DOES NOT SUPPORT PIN SHORTCUTS</string>
@@ -232,19 +232,19 @@
     <string name="color_red">Red</string>
     <string name="color_pink">Pink</string>
     <string name="color_purple">Purple</string>
-    <string name="color_deep_purple">Deep purple</string>
+    <string name="color_deep_purple">Deep Purple</string>
     <string name="color_indigo">Indigo</string>
     <string name="color_blue">Blue</string>
-    <string name="color_light_blue">Light blue</string>
+    <string name="color_light_blue">Light Blue</string>
     <string name="color_cyan">Cyan</string>
     <string name="color_teal">Teal</string>
     <string name="color_green">Green</string>
-    <string name="color_light_green">Light green</string>
+    <string name="color_light_green">Light Green</string>
     <string name="color_lime">Lime</string>
     <string name="color_yellow">Yellow</string>
     <string name="color_amber">Amber</string>
     <string name="color_orange">Orange</string>
-    <string name="color_deep_orange">Deep orange</string>
+    <string name="color_deep_orange">Deep Orange</string>
     <string name="color_brown">Brown</string>
-    <string name="color_blue_grey">Blue grey</string>
+    <string name="color_blue_grey">Blue Grey</string>
 </resources>
