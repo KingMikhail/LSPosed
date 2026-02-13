@@ -27,7 +27,7 @@
     </plurals>
     <string name="Logs">Logs</string>
     <string name="Settings">Settings</string>
-    <string name="feedback_or_suggestion">Feedbacks '&' Suggestion</string>
+    <string name="feedback_or_suggestion">Feedbacks And Suggestion</string>
     <string name="About">About</string>
     <string name="report_issue">Report Issues</string>
     <string name="module_repo">Repository</string>
@@ -49,9 +49,9 @@
     <string name="selinux_policy_not_loaded_summary">SEPolicy Unresponsive</string>
     <string name="selinux_policy_not_loaded"><![CDATA[Features Have Limited Functionality<br/>Notify<a href="https://github.com/topjohnwu/Magisk/issues"><b>Magisk</b></a> Developers]]></string>
     <string name="system_inject_fail_summary">System Framework Injection Failed</string>
-    <string name="system_inject_fail"><![CDATA[Exceptionally Extraordinary  <b>Magisk</b> Unstable Modules<br/>Disable Third Party Modules Except Riru '&' LSPosed, If Issues Persist Submit Full Logs To Developers]]></string>
+    <string name="system_inject_fail"><![CDATA[Exceptionally Extraordinary  <b>Magisk</b> Unstable Modules<br/>Disable Third Party Modules Except Riru  LSPosed, If Issues Persist Submit Full Logs To Developers]]></string>
     <string name="system_prop_incorrect_summary">System Prop Incorrect</string>
-    <string name="system_prop_incorrect"><![CDATA[Some Necessary System Properties Deleted '&' Modified<br/>Modules May Invalidate Occasionally]]></string>
+    <string name="system_prop_incorrect"><![CDATA[Some Necessary System Properties Deleted  Modified<br/>Modules May Invalidate Occasionally]]></string>
     <string name="need_update">Need An Update</string>
     <string name="please_update_summary">Install Latest LSPosed Version</string>
     <string name="developer_warning_title">Tips For Module Developer</string>
@@ -177,9 +177,9 @@
     <string name="pure_black_dark_theme">Enhanced Dark Theme</string>
     <string name="pure_black_dark_theme_summary">Activate High-Contrast Black Theme Upon System Dark Mode</string>
     <string name="settings_group_theme">Theme</string>
-    <string name="settings_backup_and_restore">Backup '&' Restore</string>
-    <string name="settings_backup_summery">Backup Module '&' Scope Lists</string>
-    <string name="settings_restore_summery">Restore Module '&' Scope Lists</string>
+    <string name="settings_backup_and_restore">Backup And Restore</string>
+    <string name="settings_backup_summery">Backup Module And Scope Lists</string>
+    <string name="settings_restore_summery">Restore Module And Scope Lists</string>
     <string name="settings_backup">Backup</string>
     <string name="settings_backup_failed2">Backup Failed (\n%s)</string>
     <string name="enable_documentui">Toggle Document User Interface</string>
