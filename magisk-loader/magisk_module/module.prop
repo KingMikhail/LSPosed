@@ -4,4 +4,3 @@ version=${versionName}
 versionCode=${versionCode}
 author=${authorList}
 description=Another Enhanced Implementation Of Xposed Framework
-updateJson=${updateJson}
