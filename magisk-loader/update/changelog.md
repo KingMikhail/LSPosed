@@ -1,4 +1,4 @@
-# LSPosed v1.11.0 🎐
+# LSPosed v1.12.0 🎐
 
 This release brings major improvements for **Android 16 Beta** readiness, resolves specific quirks on Android 10 and OnePlus devices, and significantly reinforces overall system stability.
 
