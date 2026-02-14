@@ -207,7 +207,7 @@
     <string name="update_channel_stable">Stable</string>
     <string name="update_channel_bate">Beta</string>
     <string name="update_channel_nightly">Nightly Build</string>
-    <string name="settings_xposed_api_call_protection">XPosed Application Programming Interface Call Protection: </string>
+    <string name="settings_xposed_api_call_protection">XPosed Application Programming Interface Call Protection :</string>
     <string name="settings_xposed_api_call_protection_summary">Tighten Security by Blocking Dynamic Application Programming Interface Access, at the Cost of Module Compatibility</string>
     <!-- Module Repo -->
     <string name="module_readme">ReadMe</string>
