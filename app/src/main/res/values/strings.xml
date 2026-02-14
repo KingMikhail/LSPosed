@@ -22,8 +22,8 @@
     <string name="overview">Overview</string>
     <string name="Modules">Modules</string>
     <plurals name="modules_enabled_count">
-        <item quantity="one">(%d) Enabled</item>
-        <item quantity="other">(%d) Enabled</item>
+        <item quantity="one">%d Enabled</item>
+        <item quantity="other">%d Enabled</item>
     </plurals>
     <string name="Logs">Logs</string>
     <string name="Settings">Settings</string>
@@ -35,8 +35,8 @@
     <string name="module_repo_published_time">Published (%s)</string>
     <string name="module_repo_updated_time">Updated (%s)</string>
     <plurals name="module_repo_upgradable">
-        <item quantity="one">(%d) Upgradable</item>
-        <item quantity="other">(%d) Upgradable</item>
+        <item quantity="one">%d Upgradable</item>
+        <item quantity="other">%d Upgradable</item>
     </plurals>
     <string name="about_view_source_code"><![CDATA[View Page Source (%1$s)<br/>Stay Connected]]></string>
     <string name="translators" comment="Project Supports Split-Translation">null</string>
@@ -56,13 +56,13 @@
     <string name="please_update_summary">Install Latest LSPosed Version</string>
     <string name="developer_warning_title">Tips For Module Developer</string>
     <string name="developer_warning_summary">Disable Android Studio Deploy Optimizations, Else Use `Gradled Instalñ Debug` Installation Command, Otherwise Module Application May Remain Outdated</string>
-    <string name="info_api_version">Application Programming Interface Version</string>
-    <string name="info_framework_version">Framework Version</string>
-    <string name="info_manager_package_name">Manager Package Name</string>
-    <string name="info_system_version">System Version</string>
-    <string name="info_device">Device</string>
-    <string name="info_system_abi">System Application Binary Interface</string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper</string>
+    <string name="info_api_version">Application Programming Interface Version: </string>
+    <string name="info_framework_version">Framework Version: </string>
+    <string name="info_manager_package_name">Manager Package Name: </string>
+    <string name="info_system_version">System Version: </string>
+    <string name="info_device">Device: </string>
+    <string name="info_system_abi">System Application Binary Interface: </string>
+    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper: </string>
     <string name="enabled">Enabled</string>
     <string name="not_enabled">Disabled</string>
     <string name="supported">Supported</string>
