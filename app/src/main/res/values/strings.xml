@@ -27,42 +27,42 @@
     </plurals>
     <string name="Logs">Logs</string>
     <string name="Settings">Settings</string>
-    <string name="feedback_or_suggestion">Feedbacks / Suggestion</string>
+    <string name="feedback_or_suggestion">Feedbacks / Suggestions</string>
     <string name="About">About</string>
     <string name="report_issue">Report Issues</string>
     <string name="module_repo">Repository</string>
-    <string name="module_repo_up_to_date">Up To Date</string>
+    <string name="module_repo_up_to_date">Up to Date</string>
     <string name="module_repo_published_time">Published (%s)</string>
     <string name="module_repo_updated_time">Updated (%s)</string>
     <plurals name="module_repo_upgradable">
         <item quantity="one">%d Upgradable</item>
         <item quantity="other">%d Upgradable</item>
     </plurals>
-    <string name="about_view_source_code"><![CDATA[View Page Source (%1$s)<br/>Stay Connected]]></string>
+    <string name="about_view_source_code"><![CDATA[View Page Source (%1$s)]]></string>
     <string name="translators" comment="Project Supports Split-Translation">null</string>
     <string name="install">Install</string>
-    <string name="install_summary">Tap To Install LSPosed</string>
+    <string name="install_summary">Tap to Install</string>
     <string name="not_installed">Not Installed</string>
-    <string name="not_install_summary">LSPosed Not Installed</string>
+    <string name="not_install_summary">Not Installed</string>
     <string name="activated">Activated</string>
     <string name="partial_activated">Partially Activated</string>
     <string name="selinux_policy_not_loaded_summary">SEPolicy Unresponsive</string>
     <string name="selinux_policy_not_loaded"><![CDATA[Features Have Limited Functionality<br/>Notify<a href="https://github.com/topjohnwu/Magisk/issues"><b>Magisk</b></a> Developers]]></string>
     <string name="system_inject_fail_summary">System Framework Injection Failed</string>
-    <string name="system_inject_fail"><![CDATA[Exceptionally Extraordinary  <b>Magisk</b> Unstable Modules<br/>Disable Third Party Modules Except Riru  LSPosed, If Issues Persist Submit Full Logs To Developers]]></string>
+    <string name="system_inject_fail"><![CDATA[Exceptionally Extraordinary  <b>Magisk</b> Unstable Modules<br/>Disable Third Party Modules Except Riru / LSPosed, If Issues Persist Submit Full Logs]]></string>
     <string name="system_prop_incorrect_summary">System Prop Incorrect</string>
     <string name="system_prop_incorrect"><![CDATA[Some Necessary System Properties Deleted  Modified<br/>Modules May Invalidate Occasionally]]></string>
     <string name="need_update">Need An Update</string>
     <string name="please_update_summary">Install Latest LSPosed Version</string>
-    <string name="developer_warning_title">Tips For Module Developer</string>
-    <string name="developer_warning_summary">Disable Android Studio Deploy Optimizations, Else Use `Gradled Instalñ Debug` Installation Command, Otherwise Module Application May Remain Outdated</string>
-    <string name="info_api_version">Application Programming Interface Version: </string>
-    <string name="info_framework_version">Framework Version: </string>
-    <string name="info_manager_package_name">Manager Package Name: </string>
-    <string name="info_system_version">System Version: </string>
-    <string name="info_device">Device: </string>
-    <string name="info_system_abi">System Application Binary Interface: </string>
-    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper: </string>
+    <string name="developer_warning_title">Tips for Module Developer</string>
+    <string name="developer_warning_summary">Disable Android Studio Deploy Optimizations, Else Use `Gradled Install Debug` Installation Command, Otherwise Module Application may Remain Outdated</string>
+    <string name="info_api_version">Application Programming Interface Version :</string>
+    <string name="info_framework_version">Framework Version :</string>
+    <string name="info_manager_package_name">Manager Package Name :</string>
+    <string name="info_system_version">System Version :</string>
+    <string name="info_device">Device :</string>
+    <string name="info_system_abi">System Application Binary Interface :</string>
+    <string name="info_dex2oat_wrapper">Dex Optimizer Wrapper :</string>
     <string name="enabled">Enabled</string>
     <string name="not_enabled">Disabled</string>
     <string name="supported">Supported</string>
@@ -73,12 +73,12 @@
     <string name="selinux_permissive">SELinux Flexible</string>
     <string name="sepolicy_incorrect">SELinux Policy Invalid</string>
     <string name="update_lsposed">Update LSPosed</string>
-    <string name="update_lsposed_msg">Confirm Update LSPosed? Restart Device To Finish Update</string>
-    <string name="info_copied">Copied To Clipboard</string>
+    <string name="update_lsposed_msg">Confirm Update? Restart Device to Finish</string>
+    <string name="info_copied">Copied to Clipboard</string>
     <!-- WelcomeDialog -->
-    <string name="parasitic_welcome">Welcome To LSPosed</string>
-    <string name="parasitic_welcome_summary">You Are Running Embedded Hooked Manager That Uses Persistent Notifications For Access</string>
-    <string name="parasitic_welcome_summary_no_shortcut_support">You Are Running Embedded Hooked Manager That Uses Persistent Notifications For Access</string>
+    <string name="parasitic_welcome">Welcome to LSPosed</string>
+    <string name="parasitic_welcome_summary">You are Running Embedded Hooked Manager that Uses Persistent Notifications for Access</string>
+    <string name="parasitic_welcome_summary_no_shortcut_support">You are Running Embedded Hooked Manager that Uses Persistent Notifications for Access</string>
     <string name="create_shortcut">Create Shortcut</string>
     <string name="never_show">Never Show</string>
     <string name="app_welcome">Parasitic Manager Recommended</string>
@@ -102,22 +102,22 @@
     <string name="disabled_verbose_log">Verbose Logs Disabled</string>
     <!-- ModulesActivity -->
     <string name="module_empty_description">No Description Provided</string>
-    <string name="warning_xposed_min_version">Module Incompatible With Current XPosed Application Programming Interface (%d), Cannot Be Enabled</string>
-    <string name="warning_target_version_higher">Compatible with Modern Xposed XPosed Application Programming Interface (%d), Features May Not Operate As Intended</string>
-    <string name="no_min_version_specified">Module Does Not Specify XPosed Application Programming Interface Required</string>
-    <string name="warning_min_version_too_low">Module Was Created For XPosed Application Programming Interface (%1$d), Owing Discrepancies To Version (%2$d) Been Disabled</string>
-    <string name="warning_installed_on_external_storage">Module Cannot Be Loaded, Transfer Application From SD Card To Device Memory</string>
+    <string name="warning_xposed_min_version">Module Incompatible with Current XPosed Application Programming Interface (%d), Cannot be Enabled</string>
+    <string name="warning_target_version_higher">Compatible with Modern Xposed XPosed Application Programming Interface (%d), Features may not Operate as Intended</string>
+    <string name="no_min_version_specified">Module does not Specify XPosed Application Programming Interface Required</string>
+    <string name="warning_min_version_too_low">Module was Created for XPosed Application Programming Interface (%1$d), Owing Discrepancies to Version (%2$d) been Disabled</string>
+    <string name="warning_installed_on_external_storage">Module Cannot be Loaded, Transfer Application from SD Card to Device Memory</string>
     <string name="module_uninstall">Uninstall</string>
     <string name="module_settings">Module Settings</string>
     <string name="view_in_repo">View Repository</string>
-    <string name="module_uninstall_message">Do You Want To Uninstall Module?</string>
+    <string name="module_uninstall_message">Do you want to Uninstall Module?</string>
     <string name="module_uninstalled">Uninstalled (%1$s)</string>
     <string name="module_uninstall_failed">Uninstall Unsuccessful</string>
-    <string name="add_module_to_user">Add Module To User</string>
-    <string name="module_installed">Added (%1$s) To User (%2$s)</string>
+    <string name="add_module_to_user">Add Module to User</string>
+    <string name="module_installed">Added (%1$s) to User (%2$s)</string>
     <string name="module_install_failed">Adding Module Failed</string>
-    <string name="install_to_user">Install Module To User (%s)</string>
-    <string name="install_to_user_message">Want To Install (%1$s) To User (%2$s?) Install Manually, Forcing Via LSPosed Manager Often Leads Errors</string>
+    <string name="install_to_user">Install Module to User (%s)</string>
+    <string name="install_to_user_message">Want to Install (%1$s) to User (%2$s?) Install Manually, Forcing via LSPosed Manager often Leads Errors</string>
     <string name="expand">Expand</string>
     <string name="collapse">Collapse</string>
     <!-- AppListActivity -->
@@ -135,7 +135,7 @@
     <string name="menu_show_system_apps">System Applications</string>
     <string name="menu_sort">Sorting</string>
     <string name="enable_module">Enable Module</string>
-    <string name="no_scope_selected">You Did Not Select Any Application, Continue?</string>
+    <string name="no_scope_selected">You did not Select any Application, Continue?</string>
     <string name="menu_show_games">Games</string>
     <string name="menu_show_modules">Modules</string>
     <string name="menu_show_denylist">Denylist</string>
@@ -148,7 +148,7 @@
     <string name="menu_select_all">All</string>
     <string name="menu_select_none">None</string>
     <string name="menu_auto_include">Auto-Include</string>
-    <string name="module_is_not_activated_yet">XPosed Module Not Activated</string>
+    <string name="module_is_not_activated_yet">XPosed Module not Activated</string>
     <string name="requested_by_module">Recommended</string>
     <string name="update_available">Update Available (%1$s)</string>
     <string name="module_disabled_no_selection">Module (%s) Application Disabled: No Application Selected</string>
@@ -158,24 +158,24 @@
     <string name="menu_restore">Restore</string>
     <string name="force_stop">Force Stop</string>
     <string name="force_stop_dlg_title">Force Stop?</string>
-    <string name="force_stop_dlg_text">Application Might Crash Or Malfunction If Forced</string>
-    <string name="reboot_required">System Restart Needed To Apply Changes</string>
+    <string name="force_stop_dlg_text">Application Might Crash or Malfunction if Forced</string>
+    <string name="reboot_required">System Restart Needed to Apply Changes</string>
     <string name="reboot">Reboot</string>
     <string name="menu_hide">Hide</string>
-    <string name="deny_list">(%s) On Denylist, Might Not Work</string>
+    <string name="deny_list">(%s) On Denylist, Might not Work</string>
     <string name="deny_list_info">On Denylist</string>
     <!-- ModulesActivity and AppListActivity -->
-    <string name="modules_other_app">View In Other</string>
+    <string name="modules_other_app">View in Other</string>
     <string name="module_app_info">Information</string>
     <string name="list_empty">Nothing Here</string>
     <!-- SettingsActivity -->
     <string name="settings_group_framework">Framework</string>
     <string name="settings_disable_verbose_log">Disable Verbose Logs</string>
-    <string name="settings_disable_verbose_log_summary">Detailed Debug Logs Required For Reported Issues</string>
+    <string name="settings_disable_verbose_log_summary">Detailed Debug Logs Required for Reported Issues</string>
     <string name="settings_enable_log_watchdog">Enable Log Watchdog</string>
-    <string name="settings_enable_log_watchdog_summary">LSPosed Log Watchdog Changes System Properties, Allowing Applications To Detect</string>
+    <string name="settings_enable_log_watchdog_summary">LSPosed Log Watchdog Changes System Properties, Allowing Applications to Detect</string>
     <string name="pure_black_dark_theme">Enhanced Dark Theme</string>
-    <string name="pure_black_dark_theme_summary">Activate High-Contrast Black Theme Upon System Dark Mode</string>
+    <string name="pure_black_dark_theme_summary">Activate High-Contrast Black Theme upon System Dark Mode</string>
     <string name="settings_group_theme">Theme</string>
     <string name="settings_backup_and_restore">Backup / Restore</string>
     <string name="settings_backup_summery">Backup Module / Scope Lists</string>
@@ -191,24 +191,24 @@
     <string name="theme_color">Theme Color</string>
     <string name="theme_color_system">System Theme Color</string>
     <string name="settings_show_hidden_icon_apps_enabled">Force Visibility Application Icons</string>
-    <string name="settings_show_hidden_icon_apps_enabled_summary">Starting Android 10 (API 29), Applications Are Restricted From Programmatically Hiding Their Own Launcher Icon</string>
+    <string name="settings_show_hidden_icon_apps_enabled_summary">Starting Android 10 (API 29), Applications are Restricted from Programmatically Hiding their own Launcher Icon</string>
     <string name="settings_group_system">System</string>
     <string name="settings_language">Language</string>
     <string name="settings_translation_contributors">Translators</string>
-    <string name="settings_translation">Collaborate In Translation</string>
+    <string name="settings_translation">Collaborate in Translation</string>
     <string name="settings_translation_summary">Interpret / Localize %s</string>
-    <string name="settings_create_shortcut_summary">Generate Launch Icon For Parasitic Manager</string>
+    <string name="settings_create_shortcut_summary">Generate Launch Icon for Parasitic Manager</string>
     <string name="settings_shortcut_pinned_hint">Shortcut Pinned</string>
-    <string name="settings_unsupported_pin_shortcut_summary">Shortcut Pinning Not Supported By Current Default</string>
+    <string name="settings_unsupported_pin_shortcut_summary">Shortcut Pinning not Supported by Current Default</string>
     <string name="settings_enable_status_notification">Status Notification</string>
-    <string name="settings_enable_status_notification_summary">Trigger Notification That Open Parasitic Manager</string>
+    <string name="settings_enable_status_notification_summary">Trigger Notification that Open Parasitic Manager</string>
     <string name="disable_status_notification_error">Unremovable Notification Alert Banner</string>
     <string name="settings_update_channel">Update Channel</string>
     <string name="update_channel_stable">Stable</string>
     <string name="update_channel_bate">Beta</string>
     <string name="update_channel_nightly">Nightly Build</string>
-    <string name="settings_xposed_api_call_protection">XPosed Application Programming Interface Call Protection</string>
-    <string name="settings_xposed_api_call_protection_summary">Tighten Security By Blocking Dynamic Application Programming Interface Access, At The Cost Of Module Compatibility</string>
+    <string name="settings_xposed_api_call_protection">XPosed Application Programming Interface Call Protection: </string>
+    <string name="settings_xposed_api_call_protection_summary">Tighten Security by Blocking Dynamic Application Programming Interface Access, at the Cost of Module Compatibility</string>
     <!-- Module Repo -->
     <string name="module_readme">ReadMe</string>
     <string name="module_releases">Release</string>
@@ -224,8 +224,8 @@
     <string name="sort_upgradable_first">Upgradable First</string>
     <string name="installed">Installed</string>
     <plurals name="module_release_assets_download_count">
-        <item quantity="one">(%d) Download</item>
-        <item quantity="other">(%d) Downloads</item>
+        <item quantity="one">%d Download</item>
+        <item quantity="other">%d Downloads</item>
     </plurals>
     <!-- Colors -->
     <string name="color_sakura">Sakura</string>
